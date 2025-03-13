@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "dist", // Ensure the output folder is "dist"
-    emptyOutDir: true, // Clears old files before building
+    dir: 'dist',
+    format: 'esm',
   },
 });
