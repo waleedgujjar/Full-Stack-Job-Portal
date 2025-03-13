@@ -5,7 +5,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "dist", // Ensure the output folder is "dist"
-    dir: 'dist',
-    format: 'esm',
+    target: "esnext", // Specify the target environment (optional, but recommended)
+    format: "esm", // Set the output format as ESM (optional)
   },
 });
+
