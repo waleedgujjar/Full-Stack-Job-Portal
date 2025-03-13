@@ -7,7 +7,7 @@ import { Link, useNavigate} from 'react-router-dom'
 import { Button } from '../ui/button'
 import { Loader2 } from 'lucide-react'
 import axios from 'axios'
-import { USER_API_END_POINT } from '@/utils/constant'
+import { USER_API_END_POINT } from '../utils/constant'
 import { toast } from 'sonner'
 
 
