@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon Backend/index.js",
-    "build":"npm install && npm install --prefix front/job && npm run build --prefix front/job",
+    "build":"npm install && npm install --prefix Front && npm run build --prefix Front",
     "start": "nodemon Backend/index.js"
   },
   "keywords": [],
